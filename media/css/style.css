@@ -10,26 +10,9 @@
 	background-color: rgba(0,0,0,.5);
 	-webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
-
-::selection {
-    background:#40d8dd; 
-    color:#000;
-}
-
-::-moz-selection {
-    background:#40d8dd; 
-    color:#000;
-}
-
-::-webkit-selection {
-    background:#40d8dd; 
-    color:#000;
-}
-
-
 body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin:0;border:none;outline:none;}
-a{color:#FF457A;text-decoration:none;}
+a{color:#dd0000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
@@ -56,7 +39,7 @@ blockquote p{margin:0;padding:.5em 0;}
 header{padding:.5em 0;border-bottom:1px solid #cccccc;}
 nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;width:9em;text-align:right;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color:#40d8dd;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
+nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
 h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
@@ -77,6 +60,6 @@ footer a:hover{border-bottom:1px dashed #BBB;text-decoration:none;}
 .label-info{background-color:#3a87ad;}
 .paginator{font:14px Arial,Helvetica,sans-serif;color:#AAA;margin:20px 0;line-height:150%;display:block;}
 .paginator a,.paginator span{padding:0 4px;margin:2px;text-decoration:none;}
-.paginator .current-page{color:white;background:#40d8dd;}
+.paginator .current-page{color:white;background:#ff0000;}
 .paginator a:hover{color:white;background:#83BF73;}
 

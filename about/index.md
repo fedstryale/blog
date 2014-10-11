@@ -4,7 +4,14 @@ layout: page
 comments: no
 
 ---
-constructing...
+
+攻城狮一头，目前从事Linux的相关运维。     
+
+热爱Linux，开源爱好者，喜欢虚拟化，github等。            
+
+电脑洁癖与性能癖。       
+
+偶尔微博，偶尔wow。  
 
 ---
 
@@ -26,6 +33,9 @@ GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github 
 
 **添加功能**:
 
+'Powered by Jekyll @ GitHub'中'Po'为post，'ed'为edit。 
+
+---var [Yonsm](http://yonsm.net/)
 
 post右边自动生成post的大纲，浮在post页面左边。
 

@@ -1,11 +1,11 @@
 /**
  * created by orz@mad4a.me with pirated webstorm
- * generate an floating outline according to the `h1' tags
+ * generate an floating outline according to the `h2' tags
  */
 
 $(function() {
     var dict = {};
-    $('h1').each(function (idx) {
+    $('h2').each(function (idx) {
         var title = $(this).text();
         var id = 'outline_' + idx;
         dict[title] = id;
@@ -19,7 +19,7 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
         outline_ul.append($('<li></li>')
                              .html('<span><a href="#' + val + '">' + idx + '</a></span>'));
     });
-    $('#main').append($('<nav id="h1outline"></nav>')
+    $('#main').append($('<nav id="h2outline"></nav>')
                          .css('position', 'fixed')
                          .css('top', $('#real_nav').position().top - 1)
                          .css('width', '155px')
@@ -39,7 +39,7 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
      *   => x = (w - c) / 2 - (a + d), where
      *     w = $(window).width(),
      *     c = $('#container').width(),
-     *     a = $('h1outline').width(),
+     *     a = $('h2outline').width(),
      *
      * m = l + n + d
      *   => d = m - (l + n), where
@@ -48,7 +48,7 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
      *     n = $('#real_nav').width()
      */
     var main = $('#main'),
-        h1outline = $('#h1outline'),
+        h2outline = $('#h2outline'),
         real_nav  = $('#real_nav');
 
     var m = main.position().left,
@@ -59,8 +59,8 @@ $(this).html('<a name="' + id + '"></a>'+$(this).html());
     $(window).resize(function () {
         var w = $(window).width(),
             c = main.width(),
-            a = h1outline.width();
-        h1outline.css('right',
+            a = h2outline.width();
+        h2outline.css('right',
                       (w - c) / 2 - (a + d));
     });
 
