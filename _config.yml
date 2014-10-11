@@ -1,10 +1,11 @@
 name: Fedstryale's Home
 permalink: /:year/:month/:day/:title/
+url: http://blog.fedstryale.info
 author: fedstryale
-markdown: kramdown
+markdown: rdiscount
 pygments: true
 paginate: 16
-auto: true
+safe: true
 weibo: fedstryale
 email: fedstryale@gmail.com
 duoshuo: fedstryale
