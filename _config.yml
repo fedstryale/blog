@@ -1,0 +1,10 @@
+name: Fedstryale's Home
+permalink: /:year/:month/:day/:title/
+author: fedstryale
+markdown: kramdown
+pygments: true
+paginate: 16
+auto: true
+weibo: fedstryale
+email: fedstryale@gmail.com
+duoshuo: fedstryale
