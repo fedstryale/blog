@@ -5,6 +5,7 @@ markdown: rdiscount
 pygments: true
 paginate: 16
 auto: true
+safe: true
 weibo: fedstryale
 email: fedstryale@gmail.com
 duoshuo: fedstryale
