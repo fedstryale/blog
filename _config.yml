@@ -1,7 +1,7 @@
 name: Fedstryale's Home
 permalink: /:year/:month/:day/:title/
 author: fedstryale
-markdown: kramdown
+markdown: rdiscount
 pygments: true
 paginate: 16
 auto: true
