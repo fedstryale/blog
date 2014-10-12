@@ -2,6 +2,9 @@ name: Fedstryale's Home
 permalink: /:year/:month/:day/:title/
 author: fedstryale
 markdown: kramdown
+pandoc:
+  format: html5
+  extensions: [smart, mathjax, standalone]
 pygments: true
 paginate: 16
 auto: true

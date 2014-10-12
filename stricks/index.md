@@ -8,17 +8,21 @@ comments: no
 ##此处收集经典好用的Shell技巧，记录以便查阅和分享
 
 ##闲话不说，Enjoy Shell！~
-
+```bash
 	rm -rf !(\*.html)   
+```
 删除除了\*.html之外的所有文件
-
+```bash
 	ping -c3 www.tecmint.com && links www.tecmint.com	
+```
 成功则执行
-
-	apt-get update || links tecmint.com		
+```bash
+	apt-get update || links tecmint.com
+```		
 失败则执行
-
+```bash
 	python -m SimpleHTTPServer
+```
 用python生产一个简单的http服务器显示当前目录结构，可以通过浏览器在端口8000访问
 
 	mtr google.com
@@ -50,8 +54,9 @@ at命令
 
 	ctrl+l
 清理终端，等同于clear
-
+```bash
 	yes "dum ass"
+```
 持续输出字符串，直到发出终止信号(和> /dev/pts/4一起用很好玩)
 
 	ping -i 60 -a www.google.com
